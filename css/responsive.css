@@ -1,10 +1,7 @@
  /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    .personal-information {
+    .left-side {
         text-align: center;
-    }
-    .profile-image {
-        margin: 5px auto;
     }
 }
 
@@ -15,7 +12,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    .personal-information {
+    .left-side {
         text-align: left;
     }
     .profile-image {
