@@ -21,6 +21,14 @@
     .profile-image {
         margin: 5px 0;
     }
+    .row {
+        display: table;
+    }
+    [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
 }
 
 /* Medium Devices, Desktops */
